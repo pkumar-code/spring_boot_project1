@@ -10,15 +10,15 @@ pipeline {
     
           stage('1. Build the Bookstore Application') {
               steps { 
-                      sh 'pwd'      
-                      sh 'mvn  clean install package'
+                      echo 'pwd'      
+                      echo 'mvn  clean install package'
               }
           }
           
           stage('2. Copy the Application War to mydocker') {
              steps { 
-                     sh 'pwd'
-                     sh 'cp -r target/*.war mydocker'
+                     echo 'pwd'
+                     echo 'cp -r target/*.war mydocker'
              }
           }
            
