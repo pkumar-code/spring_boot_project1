@@ -5,6 +5,7 @@
 	<groupId>com.jlcindia.boot</groupId>
 	<artifactId>Spring_boot_project1</artifactId>
 	<version>1.0</version>
+	<packaging>war</packaging>
 	<name>Spring_boot_project1</name>
 	<description>This is the Springboot jpa with curd operations</description>
 
@@ -82,7 +83,7 @@
 
 
 	<build>
-	
+	<finalName>myjlcbs</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
