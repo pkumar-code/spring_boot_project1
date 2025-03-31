@@ -1,0 +1,8 @@
+com\jlcindia\boot\BookServiceImpl.class
+com\jlcindia\boot\Book.class
+com\jlcindia\boot\BookController.class
+com\jlcindia\boot\IndexController.class
+com\jlcindia\boot\BookDAO.class
+com\jlcindia\boot\JLCWebConfig.class
+com\jlcindia\boot\BookService.class
+com\jlcindia\boot\MyBootApplication.class
