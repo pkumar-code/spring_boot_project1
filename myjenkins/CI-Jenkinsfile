@@ -7,11 +7,7 @@ pipeline {
       }
   
       stages {      
-      stage('0.setting java arguments'){
-           steps{
-           sh '-Dorg.jenkinsci.plugins.durabletask.BourneShellScript.USE_BINARY_WRAPPER=true'
-           }
-      }
+    
           stage('1. Build the Bookstore Application') {
               steps { 
                       sh 'pwd'      
